@@ -1,15 +1,15 @@
 import randomInteger from '../randomInteger.js';
 import game from '../index.js';
 
-const gameRule = 'Answer "yes" if the number is even, otherwise answer "no".';
+const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const getQuestionAnswer = () => {
-  const gameQuestion = randomInteger();
-  const isEven = gameQuestion % 2 === 0;
+const getQuestionAndCorrectAnswer = () => {
+  const question = randomInteger();
+  const isEven = question % 2 === 0;
   const correctAnswer = (isEven) ? 'yes' : 'no';
-  return [gameQuestion, correctAnswer];
+  return [question, correctAnswer];
 };
 
-const gameBrainEven = () => game(gameRule, getQuestionAnswer);
+const gameBrainEven = () => game(rule, getQuestionAndCorrectAnswer);
 
 export default gameBrainEven;
