@@ -8,7 +8,7 @@ const getQuestionAndCorrectAnswer = () => {
   const b = randomInteger();
   const operations = ['+', '-', '*'];
   const operation = operations[Math.floor(Math.random() * operations.length)];
-  const question = `Question: ${a} ${operation} ${b}`;
+  const question = `${a} ${operation} ${b}`;
   let correctAnswer;
   if (operation === '+') correctAnswer = a + b;
   if (operation === '-') correctAnswer = a - b;
