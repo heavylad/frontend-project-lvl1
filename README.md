@@ -8,3 +8,19 @@
 brain-even
 
 [![asciicast](https://asciinema.org/a/466155.svg)](https://asciinema.org/a/466155)
+
+brain-calc
+
+[![asciicast](https://asciinema.org/a/466158.svg)](https://asciinema.org/a/466158)
+
+brain-gcd
+
+[![asciicast](https://asciinema.org/a/466159.svg)](https://asciinema.org/a/466159)
+
+brain-progression
+
+[![asciicast](https://asciinema.org/a/466161.svg)](https://asciinema.org/a/466161)
+
+brain-prime
+
+[![asciicast](https://asciinema.org/a/466163.svg)](https://asciinema.org/a/466163)
