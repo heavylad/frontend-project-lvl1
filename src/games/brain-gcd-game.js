@@ -3,16 +3,22 @@ import game from '../index.js';
 
 const rule = 'Find the greatest common divisor of given numbers.';
 
-const getQuestionAndCorrectAnswer = () => {
-  let a = randomInteger();
-  let b = randomInteger();
-  const question = `${a} ${b}`;
-  while (a !== 0 && b !== 0) {
-    if (a > b) a %= b;
-    else b %= a;
+const getGCD = (a, b) => {
+  let tempA = a;
+  let tempB = b;
+  while (tempA !== 0 && tempB !== 0) {
+    if (tempA > tempB) tempA %= tempB;
+    else tempB %= tempA;
   }
-  const correctAnswer = a + b;
-  return [question, String(correctAnswer)];
+  const correctAnswer = tempA + tempB;
+  return correctAnswer;
+};
+
+const getQuestionAndCorrectAnswer = () => {
+  const a = randomInteger();
+  const b = randomInteger();
+  const question = `${a} ${b}`;
+  return [question, String(getGCD(a, b))];
 };
 
 const gameBrainGcd = () => game(rule, getQuestionAndCorrectAnswer);
