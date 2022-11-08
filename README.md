@@ -1,43 +1,69 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/heavylad/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/heavylad/frontend-project-lvl1/actions)
+# Frontend-project-level-1
 
-<a href="https://codeclimate.com/github/heavylad/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/9407441cc5d644f9f468/maintainability" /></a>
+[![hexlet check](https://github.com/heavylad/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/heavylad/frontend-project-lvl1/actions/workflows/hexlet-check.yml) [![maintainability](https://api.codeclimate.com/v1/badges/9407441cc5d644f9f468/maintainability)](https://codeclimate.com/github/heavylad/frontend-project-lvl1/maintainability) [![node CI](https://github.com/heavylad/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/heavylad/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
-[![node CI](https://github.com/heavylad/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/heavylad/frontend-project-lvl1/actions/workflows/nodejs.yml)
+## Brain Games
 
+"Brain Games" is a set of five console games based on popular mobile brain training apps. Each game asks questions that need to be answered correctly. After three correct answers the game is considered to be completed. Wrong answers end the game and offer to play it again. 
 
-# Brain-games - проект, состоящий из 5 консольных игр.
+Games:
 
-1. Brain-even (проверка на четность) - пользователю показывается случайное число; необходимо ответить 'yes', если число четное, 'no' — если нечетное;
-2. Brain-calc (калькулятор) - пользователю показывается случайное математическое выражение ('+','-','*'); необходимо его вычислить и записать ответ;
-3. Brain-gcd (определение наибольшего общего делителя) - пользователю показывается два случайных числа; необходимо определить и записать их наибольший общий делитель;
-4. Brain-progression (арифметическая прогрессия) - пользователю показывается ряд чисел, образующий арифметическую прогрессию, с одним пропущенным числом; необходимо его определить и записать ответ;
-5. Brain-prime (определение простого числа) - пользователю показывается случайное число; необходимо ответить 'yes', если число простое, 'no' — если составное.
+- brain-calc - arithmetic expressions to be calculated
+- brain-progression - finding missing numbers in a sequence of numbers
+- brain-even - determining an even number
+- brain-gcd - determining the greatest common divisor
+- brain-prime - determining a prime number
 
+## Installation Guide
 
-Установка и запуск проекта в терминале:
-1. Установить Node.js не ниже v17.2.0;
-2. Клонировать данный репозиторий - https://github.com/heavylad/frontend-project-lvl1/;
-3. Выполнить установку через команду 'make install-ci';
-4. Запустить одну из 5 консольных игр через команду (например, 'brain-even').
+```bash
+git clone git@github.com:heavylad/frontend-project-lvl1.git
+make install-ci
+npm link
+```
 
+## Launch and Demonstration
 
-brain-even
-
-[![asciicast](https://asciinema.org/a/466155.svg)](https://asciinema.org/a/466155)
-
+```bash
 brain-calc
+```
 
 [![asciicast](https://asciinema.org/a/466158.svg)](https://asciinema.org/a/466158)
 
-brain-gcd
-
-[![asciicast](https://asciinema.org/a/466159.svg)](https://asciinema.org/a/466159)
-
+```bash
 brain-progression
+```
 
 [![asciicast](https://asciinema.org/a/466161.svg)](https://asciinema.org/a/466161)
 
+```bash
+brain-even
+```
+
+[![asciicast](https://asciinema.org/a/466155.svg)](https://asciinema.org/a/466155)
+
+```bash
+brain-gcd
+```
+
+[![asciicast](https://asciinema.org/a/466159.svg)](https://asciinema.org/a/466159)
+
+```bash
 brain-prime
+```
 
 [![asciicast](https://asciinema.org/a/466163.svg)](https://asciinema.org/a/466163)
+
+## Tools and Technologies
+
+![macos badge](https://img.shields.io/badge/-macOS-281616?style=flat-square&logo=apple)
+![bash badge](https://img.shields.io/badge/-bash-281616?style=flat-square)
+![vscode badge](https://img.shields.io/badge/-VSCode-281616?style=flat-square&logo=visualstudiocode)
+![javascript badge](https://img.shields.io/badge/-javascript-281616?style=flat-square&logo=javascript)
+![node.js badge](https://img.shields.io/badge/-node.js-281616?style=flat-square&logo=node.js)
+![npm badge](https://img.shields.io/badge/-npm-281616?style=flat-square&logo=npm)
+![eslint badge](https://img.shields.io/badge/-ESLint-281616?style=flat-square&logo=eslint)
+![git badge](https://img.shields.io/badge/-git-281616?style=flat-square&logo=git)
+![githubactions badge](https://img.shields.io/badge/-githubActions-281616?style=flat-square&logo=githubactions)
+![codeclimate badge](https://img.shields.io/badge/-codeClimate-281616?style=flat-square&logo=codeclimate)
+![asciinema badge](https://img.shields.io/badge/-asciinema-281616?style=flat-square&logo=asciinema)
