@@ -8,7 +8,7 @@
 
 Games:
 
-- brain-calc - arithmetic expressions to be calculated
+- brain-calc - calculating arithmetic expressions
 - brain-progression - finding missing numbers in a sequence of numbers
 - brain-even - determining an even number
 - brain-gcd - determining the greatest common divisor
